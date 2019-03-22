@@ -1,0 +1,108 @@
+h1{
+background: #123f61;
+color: white;
+width: 100%;
+}
+body{
+font: 12px Verdana;
+}
+a,a:visited{
+color: blue;
+}
+.infotable{
+	
+}
+.infotable th {
+    /*
+     background: #7e8f9d;
+     color: #FFFFCC;
+     */
+    color: white;
+    background-color: #123f61;
+    font-family: Tahoma;
+    font-size: 13px;
+    font-weight: bold;
+}
+.infotable tr {
+    color: #000000;
+    font: 12px Tahoma;
+    background: white;
+}
+.infotable td {
+    text-align: center;
+    border: 1px ridge gray;
+}
+
+
+ul.footer{
+margin-left: -40px;
+}
+ul.footer li{
+display: inline;
+padding-left: 35px;
+}
+
+#footer {
+    position: absolute;
+    text-align: center;
+    color: white;
+    bottom: 0;
+    width: 100%;
+    height: 70px; /* Height of the footer */
+    background: #123f61;
+}
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #fffff;
+}
+
+body a, a:visited {
+    color: blue;
+    text-decoration: none;
+}
+
+#container {
+    min-height: 100%;
+    position: relative;
+}
+
+#header {
+    
+}
+
+#body {
+    padding: 10px;
+    padding-bottom: 25px; /* Height of the footer */
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; 
+}
+
+ul.temp{
+height: 500px;
+float: left;
+list-style: none;
+margin-left: -40px;
+}
+
+ul.temp li{
+border: 1px solid white;
+padding-top: 5px;
+padding-bottom: 5px;
+width: 150px;
+background: #123f61;
+color: white;
+text-align: center;
+}
+
+ul.temp li a, ul.temp li a:visited{
+color: white;
+font-weight: bold;
+}
+
+ul.temp li a:hover{
+font-size: 1.1em;
+color: orange;
+}
